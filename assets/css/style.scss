@@ -1,6 +1,23 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "jekyll-theme-cayman";
 
 /* Ajoutez votre CSS personnalisé ici */
+
+.page-header {
+  background-image: url('../images/custom_header.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px; /* Adjust based on image aspect ratio */
+  color: transparent; /* Hide text color if we can't display:none easily without affecting layout, but display:none is better for elements */
+}
+
+.project-name, .project-tagline {
+  display: none;
+}
+
+.main-content h1:first-child {
+    margin-top: 2rem;
+}
