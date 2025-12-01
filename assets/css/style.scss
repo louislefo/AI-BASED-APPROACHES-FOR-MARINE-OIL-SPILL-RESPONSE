@@ -36,11 +36,12 @@ body {
 }
 
 .page-header {
-  background-image: url('../images/banner2.png');
+  background-image: url('{{ "/assets/images/banner2.png" | relative_url }}');
   background-size: cover;
   background-position: center;
   background-color: var(--header-bg);
   color: var(--header-text);
+  min-height: 300px; /* Ensure banner is visible without text */
 }
 
 .main-content {
@@ -77,20 +78,27 @@ blockquote {
 
 /* Toggle Button Style */
 #dark-mode-toggle {
-  background: transparent;
-  border: none;
+  background: rgba(0, 0, 0, 0.3); /* Semi-transparent background for visibility */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
   cursor: pointer;
   padding: 0.5rem;
-  margin-top: 1rem;
-  color: var(--header-text);
-  transition: transform 0.2s;
+  color: #ffffff; /* Force white color */
+  transition: all 0.2s ease;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
 }
 
 #dark-mode-toggle:hover {
   transform: scale(1.1);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #dark-mode-toggle svg {
