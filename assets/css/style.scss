@@ -3,21 +3,89 @@
 
 @import "jekyll-theme-cayman";
 
-/* Ajoutez votre CSS personnalisé ici */
-
-.page-header {
-  background-image: url('../images/custom_header.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 300px; /* Adjust based on image aspect ratio */
-  color: transparent; /* Hide text color if we can't display:none easily without affecting layout, but display:none is better for elements */
+/* Variables for Blue/White Theme & Dark Mode */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #15202b;
+  --header-bg: #1e90ff; /* Blue */
+  --header-bg-gradient: linear-gradient(120deg, #1e90ff, #00bfff);
+  --header-text: #ffffff;
+  --link-color: #1e90ff;
+  --code-bg: #f3f3f3;
+  --border-color: #e1e4e8;
+  --blockquote-color: #819198;
 }
 
+/* Dark Mode Class */
+body.dark-mode {
+  --bg-color: #0d1117;
+  --text-color: #c9d1d9;
+  --header-bg: #0d47a1;
+  --header-bg-gradient: linear-gradient(120deg, #0d47a1, #1565c0);
+  --header-text: #f0f6fc;
+  --link-color: #58a6ff;
+  --code-bg: #161b22;
+  --border-color: #30363d;
+  --blockquote-color: #8b949e;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.page-header {
+  background-image: var(--header-bg-gradient);
+  background-color: var(--header-bg);
+  color: var(--header-text);
+}
+
+.main-content {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+code {
+  background-color: var(--code-bg);
+}
+
+blockquote {
+  color: var(--blockquote-color);
+  border-left-color: var(--blockquote-color);
+}
+
+/* Restore Header Text for the new theme */
 .project-name, .project-tagline {
-  display: none;
+  display: block;
+  color: var(--header-text);
 }
 
 .main-content h1:first-child {
     margin-top: 2rem;
+}
+
+/* Toggle Button Style */
+#dark-mode-toggle {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--header-text);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+#dark-mode-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }

@@ -10,10 +10,10 @@ title: IA-BASED APPROACHES FOR MARINE OIL SPILL RESPONSE
    - [Scientific Background](#1-scientific-background-scientific-knowledge)
    - [Research Necessity and Motivation](#2-research-necessity-and-motivation)
    - [Research Question](#3-research-question---main-question)
-3. [Material & Method](#2-materialmethod)
+3. [MATERIAL & METHOD](#2-materialmethod)
    - [Model A: Prediction Model](#model-a--focused-on-physics-ecology-integrated-prediction-model)
    - [Model B: Cleanup Efficiency](#model-b--focused-on-ai-based-cleanup-efficiency--recovery-optimization-model)
-4. [Results](#results)
+4. [RESULTS](#results)
 
 # 1 ABSTRACT
 
@@ -21,7 +21,7 @@ This study applied two complementary AI - based approaches to improve marine oil
 
 # 2 INTRODUCTION
 
-## 1 scientific background, scientific knowledge
+## 1 Scientific background, scientific knowledge
 
 ### Physics (Fluid Dynamics)
 
