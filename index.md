@@ -151,13 +151,13 @@ Step 1. Spatiotemporal Prediction
 
 Step 2. Selective Cleanup Strategy
 
-- Protocol: In the prediction result, detect high-concentration Hotspot (P_high), generate Priority Map, and arrange the resources mainly on hotspot.
-- Decision: When applying Targeted Cleanup Strategy, it is checked that the efficiency is enhanced about 2 times (10.7%) than random arrangement (20.7%).
+- Process: From the future pollution map, we extract hotspot area and assign cleanup methods based on concentration and biological vulnerability (DO depletion & plankton sensitivity): - High concentration (> 80%)→ Mechanical removal (oil fence, skimmers) - Mid concentration (30-80%) → Chemical dispersants - Low concentration (< 30%)→ Bioremediation (microorganisms)
 
 Step 3. Ecological Recovery Simulation
 
-- Assessment: Based on the residual concentration after cleanup, we numerically simulated the DO recovery and Plankton Biomass rise.
-- Output: The final Ecological Recovery Index (ERI) is calculated as a weighted average of DO (0.4), Plankton (0.3), and Benthos (0.3).
+- Input: Concentration map after cleanup
+- Process: Calculate ERI score = ![images](assets/images/eri.png)
+- Output: ERI score map
 
 Table 1. Common Points
 
@@ -210,6 +210,47 @@ Model Credibility
 ### Key Conclusion
 
 **Impact: Recovery rate was approximately 2.6 times faster, and the duration of long-term toxic exposure was significantly reduced, minimizing ecological damage.**
+
+## A. Solution Description: Integrated Digital Twin Framework
+
+We developed an End-to-End decision making support system that connects Scientific Forecasting and Engineering Response.
+
+- Module 1 (Prediction): Through ConcLSTM model, it precisely predicts spatiotemporal pathways of oil spill.
+- Module 2 (Counteraction): Based on the predicted hotspot map, optimal cleanup actions (mechanical, chemical, bioremediation) are deployed.
+- Module 3 (Recovery): Ecological Module quantifies the level of ecosystem recovery (DO, Plankton).
+
+## B. Experiment Result 1: Prediction Performance Test (Taean case)
+
+- Performance: Through the case of the Taean oil spill accident (2007), we verified the prediction performance of our model. Our model successfully reenacted the drift route of oil spill and spread pattern.
+- Outcome: As you can see in Fig 1, We checked that AI prediction results effectively capture the oil spread pathways and high-concentration areas compared to Ground Truth.
+
+![images](assets/images/fig1b.png)
+
+Fig 1. Prediction Performance for Taean oil spill accident. (Left) Input: Past 14 hours ocean current data. (Middle) Ground Truth: Physics model-based actual spread pathways. (Right) AI Prediction: Accurately predicted spread pathways and high-concentration contaminated areas.
+
+## C. Experiment Result 2. Cleanup Performance Test (Taean case)
+
+Different cleanup strategies were compared by simulation to evaluate in practice
+how the predicted pollution map might be used within oil spill response.
+Based on AI forecasted hotspot areas, a selective deployment of cleanup resources was performed, while the resulting pollution reduction and ecological recovery were analyzed.
+
+![images](assets/images/fig2b.png)
+
+Fig 2. Cleanup Strategy Simulation
+
+- 1-3 Priority maps that deploy hotspot area-based cleanup strategy (mechanical, chemical, bioremediation methods are selectively applied)
+- 4-5 Initial pollution concentration map and the result after applying the integrated cleanup strategy
+- 6 ERI score map that indicates the overall ecosystem health after cleanup
+
+→ We confirmed that after applying integrated strategy, concentration of pollution is greatly reduced and ERI score get enhanced much.
+
+![images](assets/images/fig3b.png)
+
+Fig3. During the process of continuous response and hotspot-focused cleanup,high-concentration regions gradually disappear, and the general oil index decreases.
+
+### Key Conclusion
+
+**These results demonstrate how AI-based prediction system can directly guide real cleanup deployment and help evaluate ecological recovery.**
 
 Sources :
 [AI model A](https://github.com/oliversong06-droid/model)
