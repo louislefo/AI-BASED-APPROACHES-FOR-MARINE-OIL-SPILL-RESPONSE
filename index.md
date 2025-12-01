@@ -10,10 +10,10 @@ title: IA-BASED APPROACHES FOR MARINE OIL SPILL RESPONSE
    - [Scientific Background](#1-scientific-background-scientific-knowledge)
    - [Research Necessity and Motivation](#2-research-necessity-and-motivation)
    - [Research Question](#3-research-question---main-question)
-3. [MATERIAL & METHOD](#2-materialmethod)
+3. [MATERIAL & METHOD](#3-material-method)
    - [Model A: Prediction Model](#model-a--focused-on-physics-ecology-integrated-prediction-model)
    - [Model B: Cleanup Efficiency](#model-b--focused-on-ai-based-cleanup-efficiency--recovery-optimization-model)
-4. [RESULTS](#results)
+4. [RESULTS](#4-results)
 
 # 1 ABSTRACT
 
@@ -57,7 +57,7 @@ Research purpose (Paradigm shift) : To overcome these limitations, this research
 
 > “ How can an AI system that integrates physical moving, chemical weathering, and biological recovery models optimize the effectiveness of marine disaster response?”
 
-# 2 Material&Method
+# 3 Material & Method
 
 ## Model A : Focused on Physics–Ecology Integrated Prediction Model
 
@@ -212,4 +212,4 @@ Model Credibility
 **Impact: Recovery rate was approximately 2.6 times faster, and the duration of long-term toxic exposure was significantly reduced, minimizing ecological damage.**
 
 Sources :
-[physics IA model](https://github.com/oliversong06-droid/model)
+[AI model A](https://github.com/oliversong06-droid/model)
