@@ -210,3 +210,6 @@ Model Credibility
 ### Key Conclusion
 
 **Impact: Recovery rate was approximately 2.6 times faster, and the duration of long-term toxic exposure was significantly reduced, minimizing ecological damage.**
+
+sources :
+https://github.com/oliversong06-droid/model
