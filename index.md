@@ -279,21 +279,21 @@ This work thus demonstrates a powerful way to address complex environmental chal
 
 # 6 REFERENCES
 
-Zhang, L., Cui, J., Song, T., & Liu, Y. (2018). Application of an AQUATOX model for direct toxic effects and indirect ecological effects assessment of Polycyclic aromatic hydrocarbons (PAHs) in a plateau eutrophication lake, China. Ecological Modelling, 388, 31–44. https://www.sciencedirect.com/science/article/abs/pii/S0304380018303168
+Zhang, L., Cui, J., Song, T., & Liu, Y. (2018). Application of an AQUATOX model for direct toxic effects and indirect ecological effects assessment of Polycyclic aromatic hydrocarbons (PAHs) in a plateau eutrophication lake, China. Ecological Modelling, 388, 31–44. [link](https://www.sciencedirect.com/science/article/abs/pii/S0304380018303168)
 
-Ozhan, K., Zahraeifard, S., Smith, A. P., & Bargu, S. (2015). Induction of reactive oxygen species in marine phytoplankton under crude oil exposure. Environmental Science and Pollution Research, 22, 18874–18884. https://link.springer.com/article/10.1007/s11356-015-5037-y
+Ozhan, K., Zahraeifard, S., Smith, A. P., & Bargu, S. (2015). Induction of reactive oxygen species in marine phytoplankton under crude oil exposure. Environmental Science and Pollution Research, 22, 18874–18884. [link](https://link.springer.com/article/10.1007/s11356-015-5037-y)
 
-Schwing, P. T., Montagna, P. A., Joye, S. B., Paris, C. B., Cordes, E. E., McClain, C. R., Kilborn, J. P., & Murawski, S. A. (2020). A synthesis of deep benthic faunal impacts and resilience following the Deepwater Horizon oil spill. Frontiers in Marine Science, 7, Article 560012. https://www.frontiersin.org/articles/10.3389/fmars.2020.560012
-Chen, B. (2017). Oil spill modeling: A review of transport and fate models. Ocean Engineering, 133, 190–209. https://www.sciencedirect.com/science/article/abs/pii/S0029801817300987
+Schwing, P. T., Montagna, P. A., Joye, S. B., Paris, C. B., Cordes, E. E., McClain, C. R., Kilborn, J. P., & Murawski, S. A. (2020). A synthesis of deep benthic faunal impacts and resilience following the Deepwater Horizon oil spill. Frontiers in Marine Science, 7, Article 560012. [link](https://www.frontiersin.org/articles/10.3389/fmars.2020.560012)
+Chen, B. (2017). Oil spill modeling: A review of transport and fate models. Ocean Engineering, 133, 190–209. [link](https://www.sciencedirect.com/science/article/abs/pii/S0029801817300987)
 
-Spaulding, M. L. (2017). A state-of-the-art review of oil spill modeling techniques. Marine Pollution Bulletin, 115(1–2), 7–19. https://www.sciencedirect.com/science/article/abs/pii/S0025326X17300012
+Spaulding, M. L. (2017). A state-of-the-art review of oil spill modeling techniques. Marine Pollution Bulletin, 115(1–2), 7–19. [link](https://www.sciencedirect.com/science/article/abs/pii/S0025326X17300012)
 
-von Schuckmann, K., et al. (2021). The Copernicus Marine Service Ocean State Report, Issue 5. Journal of Operational Oceanography, 14(sup1), s1–s185. https://www.tandfonline.com/doi/full/10.1080/1755876X.2021.1946240
+von Schuckmann, K., et al. (2021). The Copernicus Marine Service Ocean State Report, Issue 5. Journal of Operational Oceanography, 14(sup1), s1–s185. [link](https://www.tandfonline.com/doi/full/10.1080/1755876X.2021.1946240)
 
-Shi, X., Chen, Z., Wang, H., Yeung, D.-Y., Wong, W.-K., & Woo, W.-c. (2015). Convolutional LSTM network: A machine learning approach for precipitation nowcasting. In Advances in Neural Information Processing Systems (pp. 802–810). https://proceedings.neurips.cc/paper/2015/hash/07563a3fe3bbe7e3ba84431ad9d055af-Abstract.html
+Shi, X., Chen, Z., Wang, H., Yeung, D.-Y., Wong, W.-K., & Woo, W.-c. (2015). Convolutional LSTM network: A machine learning approach for precipitation nowcasting. In Advances in Neural Information Processing Systems (pp. 802–810). [link](https://proceedings.neurips.cc/paper/2015/hash/07563a3fe3bbe7e3ba84431ad9d055af-Abstract.html)
 
-Fennel, K., Wilkin, J., Levin, J., Moisan, J., O’Reilly, J., & Haidvogel, D. (2011). Modeling nitrogen, phytoplankton, zooplankton, and detritus (NPZD) dynamics in the coastal ocean. Biogeosciences, 8, 1881–1896. https://bg.copernicus.org/articles/8/1881/2011/
+Fennel, K., Wilkin, J., Levin, J., Moisan, J., O’Reilly, J., & Haidvogel, D. (2011). Modeling nitrogen, phytoplankton, zooplankton, and detritus (NPZD) dynamics in the coastal ocean. Biogeosciences, 8, 1881–1896. [link](https://bg.copernicus.org/articles/8/1881/2011/)
 
-Karniadakis, G. E., Kevrekidis, I. G., Lu, L., et al. (2021). Physics-informed machine learning. Nature Reviews Physics, 3, 422–440. https://www.nature.com/articles/s42254-021-00314-5
+Karniadakis, G. E., Kevrekidis, I. G., Lu, L., et al. (2021). Physics-informed machine learning. Nature Reviews Physics, 3, 422–440. [link](https://www.nature.com/articles/s42254-021-00314-5)
 
 [AI model A](https://github.com/oliversong06-droid/model)
