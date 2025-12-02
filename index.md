@@ -14,6 +14,8 @@ title: IA-BASED APPROACHES FOR MARINE OIL SPILL RESPONSE
    - [Model A: Prediction Model](#model-a--focused-on-physics-ecology-integrated-prediction-model)
    - [Model B: Cleanup Efficiency](#model-b--focused-on-ai-based-cleanup-efficiency--recovery-optimization-model)
 4. [RESULTS](#4-results)
+5. [DISCUSSIONS & CONCLUSIONS](#5-discussions--conclusions)
+6. [REFERENCES](#6-references)
 
 # 1 ABSTRACT
 
@@ -252,5 +254,46 @@ Fig3. During the process of continuous response and hotspot-focused cleanup,high
 
 **These results demonstrate how AI-based prediction system can directly guide real cleanup deployment and help evaluate ecological recovery.**
 
-Sources :
+# 5 Discussions & Conclusions
+
+Model A focuses physic-based principles for the scientific prediction of oil spreading over space and time.
+
+Model B focuses on practical decision-making for cleanup planning and ecological recovery assessment.
+
+When combined, these models successfully created a continuous system from prediction → cleanup decision → recovery evaluation, demonstrating strong potential for real-world application.
+
+## Impact of the prototype: scientific + interdisciplinary aspects
+
+Our prototype will prove scientifically that the integration of physics-based modeling-oil spread, oxygen loss, plankton damage-with AI-based evaluation, including ERI score, hotspot detection, and cleanup simulation, makes both predictions and decisions more accurate and useful. Model A helps us understand why the pollution spreads and how it affects water quality physically, while Model B helps us decide what to do, where to clean first, and how fast the ecosystem can recover. If these two models are linked, we will be able not only to simulate the disaster but also to support real actions like resource planning and recovery monitoring.
+From an interdisciplinary perspective, such a system can support the government policy and disaster agencies on where to first deploy cleanup resources under tight budgets, ships, and manpower. This reduces recovery costs, saves the local fishing economy, and minimizes long-term damage to marine farms and tourism. Socially, it raises greater awareness among the public and consolidates environmental responsibility. From the perspective of sustainability, it contribu²tes to faster recoveries, protection of biodiversity, and improved preparedness for future disasters in coastal communities.
+
+## Limitations & Future research plan
+
+One limitation is that we studied only one specific real accident Taean 2007and used limited biological indicators mainly DO and plankton. Model A and B are also still separated, meaning they cannot update each other automatically in real time. For example, after the cleanup simulation, the updated water quality is not fed back to the prediction model.
+In the work that will follow, we intend to create a complete Digital Twin setup: a single, uninterrupted loop in which Model A and Model B are combined. (Monitor → Predict → Cleanup Simulation → Recovery Evaluation → Update).
+We want this digital twin to include more variables like temperature, salinity, different marine species, and the estimation of economic loss. Eventually, we want the system to be capable of supporting real-time decision making in the event of a marine disaster.
+
+## Final comment
+
+This work thus demonstrates a powerful way to address complex environmental challenges in which physics-based understanding is combined with AI-based evaluation. One model alone is helpful; the real value arises when they are connected and can support not only scientific explanation but also practical action. We believe that this integrated system can make disaster recovery not only faster and smarter but also more sustainable for both nature and society..
+
+# 6 REFERENCES
+
+Zhang, L., Cui, J., Song, T., & Liu, Y. (2018). Application of an AQUATOX model for direct toxic effects and indirect ecological effects assessment of Polycyclic aromatic hydrocarbons (PAHs) in a plateau eutrophication lake, China. Ecological Modelling, 388, 31–44. https://www.sciencedirect.com/science/article/abs/pii/S0304380018303168
+
+Ozhan, K., Zahraeifard, S., Smith, A. P., & Bargu, S. (2015). Induction of reactive oxygen species in marine phytoplankton under crude oil exposure. Environmental Science and Pollution Research, 22, 18874–18884. https://link.springer.com/article/10.1007/s11356-015-5037-y
+
+Schwing, P. T., Montagna, P. A., Joye, S. B., Paris, C. B., Cordes, E. E., McClain, C. R., Kilborn, J. P., & Murawski, S. A. (2020). A synthesis of deep benthic faunal impacts and resilience following the Deepwater Horizon oil spill. Frontiers in Marine Science, 7, Article 560012. https://www.frontiersin.org/articles/10.3389/fmars.2020.560012
+Chen, B. (2017). Oil spill modeling: A review of transport and fate models. Ocean Engineering, 133, 190–209. https://www.sciencedirect.com/science/article/abs/pii/S0029801817300987
+
+Spaulding, M. L. (2017). A state-of-the-art review of oil spill modeling techniques. Marine Pollution Bulletin, 115(1–2), 7–19. https://www.sciencedirect.com/science/article/abs/pii/S0025326X17300012
+
+von Schuckmann, K., et al. (2021). The Copernicus Marine Service Ocean State Report, Issue 5. Journal of Operational Oceanography, 14(sup1), s1–s185. https://www.tandfonline.com/doi/full/10.1080/1755876X.2021.1946240
+
+Shi, X., Chen, Z., Wang, H., Yeung, D.-Y., Wong, W.-K., & Woo, W.-c. (2015). Convolutional LSTM network: A machine learning approach for precipitation nowcasting. In Advances in Neural Information Processing Systems (pp. 802–810). https://proceedings.neurips.cc/paper/2015/hash/07563a3fe3bbe7e3ba84431ad9d055af-Abstract.html
+
+Fennel, K., Wilkin, J., Levin, J., Moisan, J., O’Reilly, J., & Haidvogel, D. (2011). Modeling nitrogen, phytoplankton, zooplankton, and detritus (NPZD) dynamics in the coastal ocean. Biogeosciences, 8, 1881–1896. https://bg.copernicus.org/articles/8/1881/2011/
+
+Karniadakis, G. E., Kevrekidis, I. G., Lu, L., et al. (2021). Physics-informed machine learning. Nature Reviews Physics, 3, 422–440. https://www.nature.com/articles/s42254-021-00314-5
+
 [AI model A](https://github.com/oliversong06-droid/model)
